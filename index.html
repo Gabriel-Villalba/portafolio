@@ -16,7 +16,7 @@
             <a href="#index.html">
                 <p class="logo">Gabriel Villalba</p>
             </a>
-            <nav>
+            <nav id="nav">
                 <a href="#inicio">Inicio</a>
                 <a href="#sobremi">Sobre mi</a>
                 <a href="#skills">Skills</a>
@@ -24,6 +24,10 @@
                 <a href="#portafolio">Portafolio</a>
                 <a href="#contactenos">Contactenos</a>
             </nav>
+
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
        </div>
     </header>  
     
@@ -61,7 +65,7 @@
                             </li>
                             <li>
                                 <strong>Teléfono</strong>
-                                +543492588155
+                                +543492588185
                             </li>
                             <li>
                                 <strong>Email</strong>
@@ -203,6 +207,48 @@
         </div>
     </section>
 
+     <!-- SECCION CONTACTO -->
+     <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+        
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Rafaela , Argentina
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                +543492588185
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                ferreteriaavellaneda2@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+
+    <script src="app.js"></script>
 </body>
 </html>
