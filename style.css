@@ -1,0 +1,229 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	font-family: Roboto;
+    background-color: #2b3135;
+}
+a
+{
+	display: inline-block;
+	text-decoration: none;
+    font-size: 25px;
+}
+
+header 
+{
+	padding: 15px 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+    background: linear-gradient(to top, rgba(59, 65, 68, 0.8), rgba(30,35,38,1));
+	width: 100%;
+}
+header .container
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header .container .logo
+{
+    margin: 10px ;
+	width: 200px;
+    color: #9becdc;
+    font-size: 25px ;
+}
+header .container nav a
+{
+	color:#fff ;
+	text-decoration: none;
+	margin: 0 15px;
+}
+header .container nav a:hover{
+    color: #9becdc;
+}
+/*.contenido-banner{
+    width: 500px;
+    color:azure;
+    margin:auto;
+    border: 1px solid black;
+}
+.redes{
+    display: flex;
+
+}
+
+.contenedor-img {
+
+}*/
+
+.inicio{
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url(assets/fondoBody.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.inicio .contenido-banner{
+    padding: 20px;
+    background-color: #1e2326;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #9becdc;
+    border-radius: 40px;
+}
+.inicio .contenido-banner img{
+    margin-top: 70px;
+    border: 5px solid #9becdc;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
+}
+.inicio .contenido-banner h1{
+    margin-top: 10px;
+    font-size: 42px;
+    font-family: 'Righteous';
+}
+.inicio .contenido-banner h2{
+    font-size: 15px;
+    font-weight: normal;
+}
+.inicio .contenido-banner .redes a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #9becdc;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+.inicio .contenido-banner .redes a:hover{
+    background-color: #1CB698;
+     border: 1px solid white;
+}
+
+
+.sobremi .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.sobremi h2{
+    font-size: 48px;
+    font-family: 'roboto';
+    text-align: center;
+    padding: 20px 0;
+
+}
+.sobremi .contenido-seccion p{
+    font: 18px;
+    font-size: 20px;
+    color:#fff;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.sobremi .contenido-seccion p span{
+    color: #1CB698;
+    font-weight: bold;
+}
+.sobremi .fila{
+    display: flex;
+}
+.sobremi .fila .col
+{
+    width: 50%;
+}
+.sobremi .fila .col h3{
+    font-size: 28px;
+    font-family: 'roboto';
+    margin-bottom: 25px;
+}
+.sobremi .fila .col ul{
+    list-style: none;
+}
+.sobremi .fila .col ul li{
+    margin: 12px 0;
+    color: #fff;
+}
+.sobremi .fila .col ul li strong{
+    display: inline-block;
+    color: #1CB698;
+    width: 130px;
+}
+.sobremi .fila .col ul li span{
+    background-color: #1CB698;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.sobremi .fila .col .contenedor-intereses{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sobremi .fila .col .contenedor-intereses .interes{
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    background-color: #252A2E;
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}.sobremi .fila .col .contenedor-intereses .interes:hover{
+    background-color: #1CB698;
+    color: rgb(44, 41, 41);
+}
+.sobremi .fila .col .contenedor-intereses .interes i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* SECCION S K I L L S */
+.skills{
+    background-color: #252A2E;
+    color: #fff;
+    padding: 50px 20px;
+}
+.skills .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.skills h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+
+}
+.skills .fila{
+    display: flex;
+}
+.skills .fila .col{
+    width: 50%;
+    padding: 0 20px;
+}
+.skills .fila .col h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+.skills .skill > span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
